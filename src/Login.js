@@ -22,7 +22,7 @@ function Login() {
             <div className="login__logo">
                 <img src="https://i.pinimg.com/originals/58/f4/72/58f4723d8f23906bdcb058604075ad2a.png" alt=""
                 />
-                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-Logo.wine.svg"
+                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-Logo.wine.svg" alt=""
                 />
             </div>
             <Button type="submit" onClick={signIn}>

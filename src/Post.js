@@ -8,6 +8,7 @@ import AccountCircleIcon from "@material-ui/icons/AccountCircle"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 
 
+
 function Post({profilePic,image,username,timestamp,message}) {
     return (
         <div className="post">
@@ -15,7 +16,7 @@ function Post({profilePic,image,username,timestamp,message}) {
                 <Avatar src={profilePic} className="post__avaatar" />
                 <div className="post__topInfo">
                 <h3>{username}</h3>
-                <p>Timestamp...</p>
+                <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
                 </div>
             </div>
             <div className="post__bottom">
